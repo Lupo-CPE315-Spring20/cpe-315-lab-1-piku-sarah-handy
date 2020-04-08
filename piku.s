@@ -25,10 +25,10 @@ main:
     @ Data for the printf call. The GNU assembler's ".asciz" directive
     @ automatically adds a NULL character termination.
 line1:
-    .asciz  "Raspberry pi? Yum!\n"
+    .asciz  "Hmm, sudo apt-get\n"
 
 line2:    
-    .asciz  "No, not for eating silly.\n"
+    .asciz  "install haiku...Done. Here it\n"
 
 line3:    
-    .asciz  "Pi's a lifestyle.\n"
+    .asciz  "is. Thank you Linux!\n"
